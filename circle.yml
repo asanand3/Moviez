@@ -4,13 +4,13 @@ general:
 
 machine:
     environment:
-        ANDROID_HOME: C:\Users\asana\AppData\Local\Android\sdk
+        ANDROID_HOME: /asana/AppData/Local/Android/sdk
 
 dependencies:
     override:
         - echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-23.0.2,android-23,extra-google-m2repository,extra-google-google_play_services,extra-android-support
         - chmod +x gradlew
-        - ANDROID_HOME=C:\Users\asana\AppData\Local\Android\sdk ./gradlew dependencies
+        - ANDROID_HOME=/asana/AppData/Local/Android/sdk ./gradlew dependencies
 
 test:
     override:
