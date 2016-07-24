@@ -2,6 +2,7 @@
 Demo project based on movieDB api.
 
 Features:
+
 1. Display movie in card view with name and poster.
 2. Showing movie information on selecting any movie from grid.
 3. Showing movie details in Scrollview.
